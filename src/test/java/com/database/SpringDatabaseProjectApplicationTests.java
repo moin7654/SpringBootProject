@@ -1,12 +1,14 @@
 package com.database;
 
 import com.database.dao.BookDao;
+import com.database.dao.UserRepository;
 import com.database.entity.Book;
 import com.database.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.relational.core.sql.In;
 
 import java.util.Random;
 
